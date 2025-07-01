@@ -1,0 +1,28 @@
+# Facebook Lead Hunter - Professional Automation Panel
+# Copyright © 2025 Kamil Maslanka
+
+User-agent: *
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Facebook crawler (for social media previews)
+User-agent: facebookexternalhit
+Allow: /
+
+# Disallow crawling of sensitive or unnecessary directories
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Sitemap location (add your sitemap here when available)
+# Sitemap: https://yourdomain.com/sitemap.xml

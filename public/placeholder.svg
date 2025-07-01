@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="fbGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1877F2"/>
+      <stop offset="100%" style="stop-color:#42A5F5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)" stroke="#cbd5e1" stroke-width="2" rx="8"/>
+  
+  <!-- Main Facebook icon -->
+  <circle cx="120" cy="150" r="40" fill="url(#fbGradient)"/>
+  <path d="M135 120h-10c-11 0-20 9-20 20v8h-8v12h8v32h12v-32h12l2-12h-14v-8c0-2.2 1.8-4 4-4h6v-16z" fill="white"/>
+  
+  <!-- Automation arrows -->
+  <path d="M180 130 L220 150 L180 170" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M220 130 L260 150 L220 170" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Target/Leads icon -->
+  <circle cx="320" cy="150" r="35" fill="#ef4444" stroke="white" stroke-width="3"/>
+  <circle cx="320" cy="150" r="20" fill="none" stroke="white" stroke-width="2"/>
+  <circle cx="320" cy="150" r="10" fill="none" stroke="white" stroke-width="2"/>
+  <circle cx="320" cy="150" r="3" fill="white"/>
+  
+  <!-- Title -->
+  <text x="200" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">Facebook Lead Hunter</text>
+  <text x="200" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Professional Automation Panel</text>
+  
+  <!-- Bottom text -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">© 2025 Kamil Maslanka</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="3" fill="#a855f7" opacity="0.6"/>
+  <circle cx="350" cy="50" r="3" fill="#a855f7" opacity="0.6"/>
+  <circle cx="50" cy="250" r="3" fill="#a855f7" opacity="0.6"/>
+  <circle cx="350" cy="250" r="3" fill="#a855f7" opacity="0.6"/>
+</svg>
