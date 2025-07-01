@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kamil Maslanka",
   "description": "Facebook Automatization Panel - Lead Generation Tool",
+  "homepage": "https://mkdevelopment1312.github.io/facebook-automatization-panel-without-backend/",
   "type": "module",
   "scripts": {
     "dev": "vite",

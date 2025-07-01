@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
+  base: '/facebook-automatization-panel-without-backend/',
   server: {
     host: "::",
     port: 8080,
