@@ -4,6 +4,12 @@
 
 A powerful tool for Facebook lead generation and automation. This panel provides comprehensive features for managing Facebook groups, monitoring activities, and automating messaging workflows.
 
+## 🚀 Live Demo
+
+**[View Live Application](https://mkdevelopment1312.github.io/facebook-automatization-panel-without-backend/)**
+
+The application is automatically deployed to GitHub Pages via GitHub Actions.
+
 ## Features
 
 - **Groups Manager**: Efficiently manage multiple Facebook groups
@@ -73,6 +79,14 @@ src/
 - `bun run build:dev` - Build in development mode
 - `bun run lint` - Run ESLint
 - `bun run preview` - Preview production build
+
+## Deployment
+
+The application is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+
+- **Live URL**: https://mkdevelopment1312.github.io/facebook-automatization-panel-without-backend/
+- **Deployment**: Automated via GitHub Actions
+- **Build Tool**: Vite with optimized production builds
 
 ## License
 
